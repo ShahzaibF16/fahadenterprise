@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery-highlight{
+    width: 80%;
+    height: 50%;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+}
+
+.room-gallery{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.room-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2d2c0;
+
+}
+.room-preview{
+    display: flex;
+    width: 80%;
+    border: 2px solid #e2d2c0;
+}
+.room-preview img{
+    height: 100px;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition:opacity 0.3s ease;
+}
+
+img.room-active{
+    opacity: 1;
+}
+
+
+
+.map-container {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.about {
+    
+    text-align: center;
+    
+    
+}
+
+.ecommerce-contact-form{
+    
+    width: 70%;
+    margin-top: 30px;
+    
+}
+
+.col-lg-5{
+    
+    margin-top: 30px;
+    padding-right: 20px;
+    width: 50%;
+    
+}
+.mb-1, .mb-3{
+    margin-left: 50px;
+}
+
+
+
+/* FOOTER */
+.page-footer{
+    background-color: #EF9A9A !important;
+    color: white;
+    text-align: center !important;
+}
+.footer-copyright, .c{
+    background-color: #E57373 !important;
+    text-decoration: none !important;
+    width: 100%;
+}
+.page-footer{
+    background: #ef9a9a;
+}
+#follow{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+.container{
+    
+}
+
+
+#contact-text{
+    color: #442c2e !important;
+    text-align: center;
+    text-shadow:0px 5px 20px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+
+}
+
+
+.about-us{
+    text-align: center;
+    color: #442c2e;
+    text-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px 0 10px 0;
+}
+
+.card-img{
+    height: 85vh;
+    width: 90vh;
+}
+
+
+.room-description{
+    font-family: 'Roboto';
+    color: #442c2e;
+    text-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+
+}
